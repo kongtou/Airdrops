@@ -15,6 +15,8 @@
 
 .cd-auto-hide-header .menu {
     height: 100%;
+    width: 1130px;
+    margin: 0 auto;
 }
 
 .cd-auto-hide-header .menu .menu-item{
@@ -22,6 +24,14 @@
     height: 60px;
     line-height: 60px;
     text-align: center;
+}
+
+.cd-auto-hide-header .menu .menu-search {
+    float: right !important;
+}
+
+.cd-auto-hide-header .menu .menu-search img {
+    vertical-align: middle;
 }
 
 .cd-auto-hide-header .menu .menu-item .logo{
@@ -56,7 +66,7 @@
 
 .cd-main-content .ticker {
     line-height: 15px;
-    padding: 0 10px;
+    /*padding: 0 10px;*/
 }
 
 .cd-main-content .ticker .ticker-item{
@@ -88,6 +98,26 @@
     font-family: "David Libre", serif;
     color: #a5a8a9;
 }
+
+.cd-main-content .swiper-container {
+    width: 1110px;
+    height: 150px;
+}
+
+.cd-main-content .swiper-container .swiper-button-prev, .cd-main-content .swiper-container .swiper-button-next{
+    background-size: 10px 40px;
+}
+
+/*.cd-main-content .swiper-container .swiper-slide-c {*/
+    /*text-align: center;*/
+/*}*/
+
+.cd-main-content .swiper-container .swiper-slide img {
+    width: 270px;
+    height: 150px;
+    text-align: center;
+}
+
 /*@media only screen and (min-width: 1024px) {*/
     /*.cd-main-content {*/
         /*padding-top: 80px;*/
