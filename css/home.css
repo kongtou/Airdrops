@@ -6,6 +6,7 @@
     height: 60px;
     transition: transform .5s;
     background-color: #eae9ed;
+    z-index: 1000;
 
     border-bottom: 1px solid #ccc;
 }
@@ -79,26 +80,6 @@
     color:red;
     font-weight: 700;
 }
-
-/*.cd-main-content .sub-nav {*/
-    /*!* to be used if there is sub nav *!*/
-    /*padding-top: 110px;*/
-/*}*/
-/*.cd-main-content .sub-nav-hero {*/
-    /*!* to be used if there is hero image + subnav *!*/
-    /*padding-top: 0;*/
-/*}*/
-/*.cd-main-content .sub-nav-hero .secondary-nav-fixed {*/
-    /*margin-top: 50px;*/
-/*}*/
-.cd-main-content p {
-    max-width: 1024px;
-    line-height: 1.6;
-    margin: 2em auto;
-    font-family: "David Libre", serif;
-    color: #a5a8a9;
-}
-
 .cd-main-content .swiper-container {
     width: 1110px;
     height: 150px;
@@ -108,47 +89,136 @@
     background-size: 10px 40px;
 }
 
-/*.cd-main-content .swiper-container .swiper-slide-c {*/
-    /*text-align: center;*/
-/*}*/
-
 .cd-main-content .swiper-container .swiper-slide img {
     width: 270px;
     height: 150px;
     text-align: center;
 }
 
-/*@media only screen and (min-width: 1024px) {*/
-    /*.cd-main-content {*/
-        /*padding-top: 80px;*/
-    /*}*/
-    /*.cd-main-content.sub-nav {*/
-        /*padding-top: 150px;*/
-    /*}*/
-    /*.cd-main-content.sub-nav-hero.secondary-nav-fixed {*/
-        /*margin-top: 70px;*/
-    /*}*/
-    /*.cd-main-content p {*/
-        /*font-size: 2.4rem;*/
-    /*}*/
-/*}*/
+.airdrop-container {
+    height: 540px;
+}
 
-/*
-	adjust the positioning of in-page links
-	http://nicolasgallagher.com/jump-links-and-viewport-positioning/
-*/
-/*.cd-main-content .sub-nav :target::before,*/
-/*.cd-main-content.sub-nav-hero :target::before {*/
-    /*display: block;*/
-    /*content: "";*/
-    /*margin-top: -50px;*/
-    /*height: 50px;*/
-    /*visibility: hidden;*/
-/*}*/
-/*@media only screen and (min-width: 1024px) {*/
-    /*.cd-main-content.sub-nav :target::before,*/
-    /*.cd-main-content.sub-nav-hero :target::before {*/
-        /*margin-top: -70px;*/
-        /*height: 70px;*/
-    /*}*/
-/*}*/
+.cd-main-content .airdrop-container .airdrop-item {
+    width: 33.3%;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+    margin-bottom: 5px;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .airdrop-item-content {
+    height:auto;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .airdrop-item-content .airdrop-item-content-bottom-bar {
+    height: 50px;
+    color: #333;
+    font-size: 14px;
+    line-height: 50px;
+    background-color: #d5d5d5;
+    text-align: center;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .article-box {
+    cursor: pointer;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(221, 221, 221, 1);
+}
+
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article {
+    position: relative;
+    padding: 20px;
+    min-height: 110px;
+    margin-bottom: 0 !important;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .thumbnail {
+    width: 80px;
+    height: 80px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px;
+
+}
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .thumbnail img {
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other {
+    float: right;
+    width: 70%;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .name {
+    font-size: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    max-width: 75%;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: black;
+}
+
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .font-drop-list {
+    margin: 0 0 10px 0;
+    columns: 1;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .font-drop-list .est-value {
+    font-size: 13px;
+    display: inline-block;
+}
+
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .req-drop-list {
+    margin-bottom: 10px;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .req-drop-list .reqdrop {
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    text-align: center;
+    border-width: 0 1px 4px;
+    border-style: solid;
+    border-color: #e3e3e3;
+    border-radius: 100px;
+    background: #f0f0f0;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .air-time {
+    font-size: 12px;
+    position: absolute;
+    right: 25px;
+    bottom: -30px;
+    float: right;
+    clear: both;
+}
+.cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .air-time p {
+    position: relative;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+}
