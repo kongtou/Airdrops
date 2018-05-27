@@ -222,3 +222,32 @@
     margin: 0;
     padding: 0;
 }
+
+
+.cd-main-content .explain-container {
+    background-color: white;
+    padding: 20px;
+}
+
+.cd-main-content .explain-container .segment {
+}
+
+.cd-main-content .explain-container .segment .title {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 1.2;
+}
+
+.cd-main-content .explain-container .segment .text {
+    margin-top: 5px;
+}
+
+
+
+/*footer begin*/
+.cd-footer {
+    background-color: #4080b3;
+    padding: 40px 0;
+    /*height: 200px;*/
+}
