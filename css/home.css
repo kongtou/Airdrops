@@ -10,6 +10,7 @@
 
     border-bottom: 1px solid #ccc;
 }
+
 .cd-auto-hide-header.is-hidden {
     transform: translateY(-100%);
 }
@@ -20,7 +21,7 @@
     margin: 0 auto;
 }
 
-.cd-auto-hide-header .menu .menu-item{
+.cd-auto-hide-header .menu .menu-item {
     float: left;
     height: 60px;
     line-height: 60px;
@@ -35,7 +36,7 @@
     vertical-align: middle;
 }
 
-.cd-auto-hide-header .menu .menu-item .logo{
+.cd-auto-hide-header .menu .menu-item .logo {
     height: 60px;
     padding-left: 0 !important;
 }
@@ -45,7 +46,7 @@
     padding: 5px 0;
 }
 
-.cd-auto-hide-header .menu .menu-item a{
+.cd-auto-hide-header .menu .menu-item a {
     color: #333;
     font-size: 15px;
     font-weight: 400;
@@ -53,11 +54,10 @@
     display: block;
 }
 
-.cd-auto-hide-header .menu .menu-item a:hover, .cd-auto-hide-header .menu .menu-item a.active{
+.cd-auto-hide-header .menu .menu-item a:hover, .cd-auto-hide-header .menu .menu-item a.active {
     color: #003e6f;
     background-color: #d5d5d5;
 }
-
 
 /*content begin*/
 .cd-main-content {
@@ -70,22 +70,23 @@
     /*padding: 0 10px;*/
 }
 
-.cd-main-content .ticker .ticker-item{
+.cd-main-content .ticker .ticker-item {
     font-size: 11px;
     display: inline-block;
     margin-right: 5px;
 }
 
-.cd-main-content .ticker .ticker-item .ticker-item-p{
-    color:red;
+.cd-main-content .ticker .ticker-item .ticker-item-p {
+    color: red;
     font-weight: 700;
 }
+
 .cd-main-content .swiper-container {
     width: 1110px;
     height: 150px;
 }
 
-.cd-main-content .swiper-container .swiper-button-prev, .cd-main-content .swiper-container .swiper-button-next{
+.cd-main-content .swiper-container .swiper-button-prev, .cd-main-content .swiper-container .swiper-button-next {
     background-size: 10px 40px;
 }
 
@@ -113,7 +114,7 @@
 }
 
 .cd-main-content .airdrop-container .airdrop-item .airdrop-item-content {
-    height:auto;
+    height: auto;
 }
 
 .cd-main-content .airdrop-container .airdrop-item .airdrop-item-content .airdrop-item-content-bottom-bar {
@@ -131,7 +132,6 @@
     background-color: white;
     box-shadow: 0 0 0 1px rgba(221, 221, 221, 1);
 }
-
 
 .cd-main-content .airdrop-container .airdrop-item .article-box .inside-article {
     position: relative;
@@ -177,7 +177,6 @@
     color: black;
 }
 
-
 .cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .font-drop-list {
     margin: 0 0 10px 0;
     columns: 1;
@@ -187,7 +186,6 @@
     font-size: 13px;
     display: inline-block;
 }
-
 
 .cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .req-drop-list {
     margin-bottom: 10px;
@@ -216,13 +214,13 @@
     float: right;
     clear: both;
 }
+
 .cd-main-content .airdrop-container .airdrop-item .article-box .inside-article .other .air-time p {
     position: relative;
     right: 20px;
     margin: 0;
     padding: 0;
 }
-
 
 .cd-main-content .explain-container {
     background-color: white;
@@ -243,11 +241,70 @@
     margin-top: 5px;
 }
 
-
-
 /*footer begin*/
 .cd-footer {
     background-color: #4080b3;
     padding: 40px 0;
-    /*height: 200px;*/
+    height: 520px;
+}
+
+.cd-footer .left-box {
+    width: 350px;
+}
+
+.cd-footer .left-box .social {
+    margin-top: 20px;
+}
+
+.cd-footer .left-box .social .social-item {
+    display: inline-block;
+}
+
+.cd-footer .left-box .social .social-item .social-item-link {
+    color: white;
+    font-size: 20px;
+    line-height: 36px;
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.cd-footer .left-box .desc {
+    background: url('../img/ic_logo_footer.png') no-repeat top left;
+    padding-top: 90px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cd-footer .middle-box {
+    width: 400px;
+    margin-left: 40px;
+}
+
+.cd-footer .middle-box .title {
+    font-size: 25px;
+    color: white;
+}
+
+.cd-footer .middle-box .title::after {
+    display: block;
+    width: 150px;
+    height: 4px;
+    content: '';
+    background: white;
+}
+
+.cd-footer .middle-box .menu-item {
+    padding-bottom: 5px;
+}
+
+.cd-footer .middle-box .menu-item::before {
+    font-family: FontAwesome, sans-serif;
+    padding-right: 10px;
+    content: '\f0da';
+    color: white;
 }

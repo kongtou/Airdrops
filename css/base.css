@@ -55,6 +55,7 @@ a {
 .fs-12 {font-size: 12px;}
 .fs-14 {font-size: 14px;}
 .fs-16 {font-size: 16px;}
+.fs-17 {font-size: 17px;}
 .fs-18 {font-size: 18px;}
 .fs-20 {font-size: 20px;}
 .fs-22 {font-size: 22px;}
@@ -99,6 +100,7 @@ a {
 .pt12{padding-top: 12px}
 .pb15{padding-bottom: 15px}
 .pb12{padding-bottom: 12px}
+.pb5{padding-bottom: 5px}
 .pl14{padding-left: 14px}
 .pl15{padding-left: 15px}
 .pl16{padding-left: 16px}
