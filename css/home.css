@@ -275,6 +275,111 @@
     margin-top: 5px;
 }
 
+
+/*project detail content*/
+.cd-main-content .project-content {
+    margin-top: 30px;
+}
+
+.cd-main-content .project-content .entry-title {
+    font-size: 40px;
+    font-weight: 300;
+    font-style: inherit;
+    font-family: inherit;
+    text-transform: none;
+}
+
+.cd-main-content .project-content .inside-article{
+    font-size: 15px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 30px;
+
+    padding: 20px;
+    clear: both;
+    box-shadow: 0 0 3px 1px rgba(221, 221, 221, 1);
+    background-color: white;
+
+    /*float引起父亲高度塌陷问题,
+    https://blog.csdn.net/chris_z_0622/article/details/65442975*/
+    overflow: hidden;
+}
+
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper {
+    display: block;
+}
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail {
+    margin-top: 0;
+    text-align: center;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-logo {
+    max-width: 160px;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-rating-temp-wrapper {
+    margin-top: 25px;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-rating-temp-wrapper .airdrop-rating-temp {
+    position: relative;
+    display: inline-block;
+    width: 122px;
+    height: 42px;
+    padding: 5px 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-rating-temp-wrapper .airdrop-rating-temp .airdrop-rating-temp-single {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-rating-temp-wrapper .airdrop-rating-temp .post-ratings {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    opacity: 1;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-rating-temp-wrapper .airdrop-rating-temp .post-ratings img:first-child {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-rating-temp-wrapper .airdrop-rating-temp .post-ratings img:last-child {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-rating-temp-wrapper .airdrop-rating-temp .post-rating-loading {
+    height: 16px;
+    text-align: left;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-rating-temp-wrapper .airdrop-rating-temp .post-rating-loading .post-ratings-image {
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-logo-thumbnail .airdrop-info li {
+    line-height: 30px;
+    display: block;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .drop-features {
+    font-size: 15px;
+    font-weight: 300;
+}
+
 /*footer begin*/
 .cd-footer {
     background-color: #4080b3;
