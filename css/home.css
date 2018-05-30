@@ -61,7 +61,7 @@
 
 /*content begin*/
 .cd-main-content {
-    padding: 60px 0;
+    padding: 60px 0 30px 0;
     overflow: hidden;
 }
 
@@ -378,6 +378,63 @@
 .cd-main-content .project-content .inside-article .airdrop-info-wrapper .drop-features {
     font-size: 15px;
     font-weight: 300;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-req-wrapper {
+    min-height: 75px;
+    padding-bottom: 10px;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-req-wrapper .airdrop-req-title {
+
+}
+
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-list {}
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-list ul{
+    margin-bottom: 10px;
+    list-style: none;
+    columns: 2;
+    column-gap: 90px;
+}
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-list ul li {
+    line-height: 35px;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-info-wrapper .airdrop-list .download-whitepaper {
+    display: inline;
+    padding: 2px 12px;
+    white-space: pre;
+    color: #20c;
+    border: 2px solid #20c;
+    border-radius: 3px;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-conv {
+    margin-top: 10px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-conv .claim-airdrop {
+    color: white;
+    background-color: #69be28;
+    font-size: 25px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 2px #69be28;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-grid-wrapper {
+    display: flex;
+}
+
+.cd-main-content .project-content .inside-article .airdrop-grid-wrapper .score-value {
+    font-size: 2em;
+    margin: 0!important;
+    color: #4080b3;
 }
 
 /*footer begin*/
