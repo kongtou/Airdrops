@@ -1,0 +1,114 @@
+.article-box {
+    cursor: pointer;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(221, 221, 221, 1);
+    position: relative;
+}
+
+.article-box.exclusive{
+    color: #ccc !important;
+}
+
+.article-box .inside-article {
+    position: relative;
+    padding: 20px;
+    min-height: 110px;
+    margin-bottom: 0 !important;
+}
+
+.article-box.exclusive .inside-article::after {
+    font-size: 12px;
+    position: absolute;
+    z-index: 10;
+    top: 22px;
+    right: 0;
+    /* left: 0px; */
+    padding: 5px 10px;
+    content: 'EXPIRED';
+    transform: rotate(45deg);
+    text-align: center;
+    color: white;
+    background: #e13e3e;
+}
+
+.article-box .inside-article .thumbnail {
+    width: 80px;
+    height: 80px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px;
+
+}
+
+.article-box .inside-article .thumbnail img {
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.article-box .inside-article .other {
+    float: right;
+    width: 70%;
+}
+
+.article-box .inside-article .other .name {
+    font-size: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    max-width: 75%;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.article-box .inside-article .other .font-drop-list {
+    margin: 0 0 10px 0;
+    columns: 1;
+}
+
+.article-box .inside-article .other .font-drop-list .est-value {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.article-box .inside-article .other .req-drop-list {
+    margin-bottom: 10px;
+}
+
+.article-box .inside-article .other .req-drop-list .reqdrop {
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    text-align: center;
+    border-width: 0 1px 4px;
+    border-style: solid;
+    border-color: #e3e3e3;
+    border-radius: 100px;
+    background: #f0f0f0;
+}
+
+.article-box .inside-article .other .air-time {
+    font-size: 12px;
+    position: absolute;
+    right: 25px;
+    bottom: -30px;
+    float: right;
+    clear: both;
+}
+
+.article-box .inside-article .other .air-time p {
+    position: relative;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+}
