@@ -114,7 +114,12 @@
 }
 
 .cd-main-content .airdrop-container .airdrop-item .airdrop-item-content {
-    height: auto;
+    height: 500px;
+    background-color: white;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .airdrop-item-content .airdrop-item-content-scroll {
+    height: 450px;
 }
 
 .cd-main-content .airdrop-container .airdrop-item .airdrop-item-content .airdrop-item-content-bottom-bar {

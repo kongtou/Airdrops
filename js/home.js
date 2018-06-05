@@ -122,4 +122,11 @@ jQuery(document).ready(function ($) {
     articleElements.mouseleave(function () {
         $(this).css("background-color", 'white');
     });
+
+    $('.airdrop-item-content-scroll').slimscroll({
+        size: '7px',
+        height: '450px',
+        color: '#7c7c7c',
+        alwaysVisible: true
+    });
 });
