@@ -131,6 +131,16 @@
     text-align: center;
 }
 
+.cd-main-content .airdrop-container .airdrop-item .airdrop-item-content .airdrop-item-content-bottom-bar a {
+    display: block;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.cd-main-content .airdrop-container .airdrop-item .airdrop-item-content .airdrop-item-content-bottom-bar a:hover {
+    color: #20c;
+}
+
 .cd-main-content .airdrop-container .airdrop-item .article-box {
     cursor: pointer;
     height: 150px;
