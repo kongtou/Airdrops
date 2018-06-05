@@ -114,8 +114,14 @@ jQuery(document).ready(function ($) {
         },
     });
 
+    $('.swiper-slide').click(function () {
+        self.location.href = '/airdrops/detail.html'
+    });
 
     var articleElements = $('.article-box');
+    articleElements.click(function () {
+        self.location.href = '/airdrops/detail.html'
+    });
     articleElements.mousemove(function () {
         $(this).css("background-color", "#f5f5f5");
     });

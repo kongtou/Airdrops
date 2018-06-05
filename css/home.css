@@ -90,10 +90,43 @@
     background-size: 10px 40px;
 }
 
+.cd-main-content .swiper-container .swiper-slide {
+    /*position: relative;*/
+}
+
+.cd-main-content .swiper-container .swiper-slide .swiper-slide-link {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
 .cd-main-content .swiper-container .swiper-slide img {
     width: 270px;
     height: 150px;
     text-align: center;
+}
+
+.cd-main-content .swiper-container .swiper-slide .swiper-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 71px;
+    padding: 10px;
+    color: white;
+    background: rgba(0, 0, 0, .4);
+}
+
+.cd-main-content .swiper-container .swiper-slide .swiper-bottom .title {
+    font-size: 12px;
+    font-weight: bold;
+    /*color: white;*/
+}
+
+.cd-main-content .swiper-container .swiper-slide .swiper-bottom .des {
+    font-size: 11px;
+    font-weight: 300;
+    /*color: white;*/
 }
 
 .airdrop-container {
